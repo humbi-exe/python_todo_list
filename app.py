@@ -56,6 +56,7 @@ if __name__ == '__main__':
         if response == 6:
             stop = True
         elif response == 3:
+            print("estas son tus tareas pendientes")
             print_list()
         elif response == 2:
             print("What task number you want to delete?")
